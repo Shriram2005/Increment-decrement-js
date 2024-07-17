@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increment Decrement</title>
+    <link href="style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+    <div class="bg-gray-800 h-[100vh] w-[100vw] flex justify-center items-center">
+        <div class=" flex flex-col gap-5 md:scale-150">
+            <div class="text-blue-500 font-bold flex justify-center">Increment & Decrement</div>
+            <div class="flex justify-center items-center h-10 bg-white rounded-sm">
+                <div class="px-6 border-r-2 border-gray-500 font-bold hover:cursor-pointer" onclick="decrement()">
+                    <i class="fa-solid fa-minus" style="color: #000000;"></i>
+                </div>
+
+                <div id="value" class="font-bold px-6 text-xl">0</div>
+
+                <div class="px-6 border-l-2  border-gray-500 font-bold hover:cursor-pointer" onclick="increment()">
+                    <i class="fa-solid fa-plus" style="color: #000000;"></i>
+                </div>
+            </div>
+            <div class="font-bold text-white flex justify-center items-center bg-red-600 h-7 hover:cursor-pointer rounded-sm" onclick="reset()">Reset</div>
+
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/85a51766c8.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</body>
+
+</html>
